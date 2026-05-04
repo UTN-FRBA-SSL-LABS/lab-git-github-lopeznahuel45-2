@@ -9,7 +9,7 @@ int sumar(int a, int b) {
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
 /* const asegura que los parámetros sean de solo lectura.*/
-int restar(int a, int b) {
+int restar(const int a, const int b) {
     return a - b;
 }
 
